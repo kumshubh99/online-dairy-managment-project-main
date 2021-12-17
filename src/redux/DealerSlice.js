@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import Dealer from "../components/models/Dealer";
-import GetAllDealer from "../components/controller/DealerController/GetAllDealer";
+
 
 // step 3 for redux - create slices for each components 
 const DealerSlice = createSlice({
