@@ -1,13 +1,13 @@
 import { render, screen } from '@testing-library/react';
 //import Hello from './components/Hello';
-import DeleteDealer from './Components/controller/DeleteDealer';
-import GetAllDealer from './Components/controller/GetAllDealer';
-import AddDealer from './Components/controller/AddDealer';
-import GetDealerById from './Components/controller/GetDealerById';
+import DeleteDealer from './Components/controller/DealerController/DeleteDealer';
+import GetAllDealer from './Components/controller/DealerController/GetAllDealer';
+import AddDealer from './Components/controller/DealerController/AddDealer';
+import GetDealerById from './Components/controller/DealerController/GetDealerById';
 //import SpringBootData from './components/SpringBootData';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-import UpdateDealer from './Components/controller/UpdateDealer';
+import UpdateDealer from './Components/controller/DealerController/UpdateDealer';
 //import GetCompanyById from './Components/controller/GetCompanyById';
 
 
