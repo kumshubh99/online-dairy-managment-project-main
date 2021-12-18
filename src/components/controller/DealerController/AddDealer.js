@@ -103,4 +103,4 @@ const AddDealer = () => {
         </div>
         );
 }
-export default InsertDealer;
+export default AddDealer;
